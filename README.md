@@ -11,7 +11,9 @@ T2: T2-weighted image, axial 2D acquisition, with 2–6 mm slice thickness.
 FLAIR: T2-weighted FLAIR image, axial, coronal, or sagittal 2D acquisitions, 2–6 mm slice thickness.
 Data were acquired from the BraTS 2024 dataset in https://www.synapse.org/Synapse:syn53708249/wiki/626323\
 
-I wish to bring to everyone's attention several flaws in the execution of the project, which would require the help of other, more qualified persons.
+I wish to bring to everyone's attention several flaws in the execution of the project, which would require the help of other, more qualified persons. If they can offer solutions to this problems, I shall incorporate them in the program and will be eternally grateful to them.
+1. The dimensions of the 3D Unet model and that of the test images do not match with each other. This leads to errors during model training.
+2. The YOLOv8 model due to some reason cannot load the data during model training.
 
 
 
