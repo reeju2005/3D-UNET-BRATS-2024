@@ -1,5 +1,5 @@
 # 3D-UNET-BRATS-2024
-This is the 3D Unet architecture for BRATS 2024.
+This is the 3D Unet and YOLOv8 architecture for BRATS 2024.
 Steps to run it:
 1. Setup environment: All the necessary packages are being initialised. Preferably use Jupyter notebook. 
 The link to the dataset: https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation
